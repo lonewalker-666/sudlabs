@@ -56,7 +56,7 @@ export default function SiteHeader() {
           <div className="hidden md:flex">
             <button
               onClick={() => router.push("/get-started")}
-              className="bg-[#C4202B] hover:bg-[#a81b24] text-white text-xl px-6 py-2 rounded-full font-medium transition-colors"
+              className="bg-[#536028] hover:bg-[#536028]/80 text-white text-xl px-6 py-2 rounded-full font-medium transition-colors"
             >
               Get Started
             </button>
@@ -128,7 +128,7 @@ export default function SiteHeader() {
                 setMobileOpen(false);
                 router.push("/get-started");
               }}
-              className="mt-4 bg-[#C4202B] text-white px-5 py-2 rounded-full font-semibold"
+              className="mt-4 bg-[#536028] text-white px-5 py-2 rounded-full font-semibold"
             >
               Get Started
             </button>

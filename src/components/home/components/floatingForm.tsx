@@ -49,16 +49,16 @@ export default function FloatingForm() {
             <select
               className="h-16 rounded-2xl border border-gray-400 px-4 bg-white text-black outline-none focus:border-gray-700 md:col-span-2"
             >
-              <option>Select Your Business</option>
-              <option>Restaurant</option>
-              <option>Cafe</option>
-              <option>Cloud Kitchen</option>
+              <option>Select the Service</option>
+              <option>Sud Health</option>
+              <option>Yard IQ</option>
+              <option>Sud Space</option>
             </select>
 
             <div className="md:col-span-2 flex justify-end mt-2">
               <button
                 type="submit"
-                className="bg-red-600 hover:bg-red-700 text-white px-8 py-2 rounded-full font-medium transition"
+                className="bg-[#536028] hover:bg-[#536028]/80 text-white px-8 py-2 rounded-full font-medium transition"
               >
                 Submit
               </button>
